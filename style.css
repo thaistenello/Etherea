@@ -1,0 +1,802 @@
+
+/* ====== FONT ====== */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&display=swap');
+
+/* = Globals = */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* = Base = */
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    font-weight: 400;
+    line-height: 1;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+}
+
+
+#main{
+    width: 100%;
+}
+
+/* ====== NAV ====== */
+#nav{
+    display: inline-block;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 6vw 3vw 12vw;
+    background-color: #fff;
+}
+
+#nav__list{
+    display: flex;
+    gap: 60px;
+}
+
+#nav__list a:last-child{
+    margin-left: 38vw;
+}
+
+#logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#logo img{
+    width: 4vw;
+}
+
+#nav a{
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+    transition: color .3s ease;
+}
+
+#nav a:hover{
+ color: #ff9901;
+ cursor: pointer;
+}
+
+#nav #centeratag{
+    font-size: 14px;
+}
+
+.nav__toggle
+{
+    display: none;
+}
+
+/* Show menu */
+.show-menu #nav__list{
+    transform: translateY(0%);
+}
+
+.nav__toggle.show-menu{
+    display: none;
+}
+
+.nav__close{
+    display: none;
+}
+
+.show-menu .nav__close{
+    display: block;
+}
+
+.show-menu #logo{
+    display: none;
+}
+
+/* ====== SYMBIOSIS ====== */
+#hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20vw;
+    padding: 0vw 10vw;
+}
+
+#symbiosis{
+    width: 10vw;
+}
+
+#symbiosis h4{
+    line-height: .8;
+}
+
+#symbiosis p{
+    font-size: 1vw;
+    font-weight: 600;
+    width: 15vw;
+    opacity: 0.6;
+    margin: 10px 0;
+}
+
+#symbiosis #sym__image{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 15vw;
+}
+
+/* ====== ETHEREA ====== */
+#etherea{
+    position: relative;
+    width: 30vw;
+    min-height: 40vw;
+}
+
+#etherea #headings{
+    position: absolute;
+    top: -22%;
+    left: -14%;
+    pointer-events: none;
+}
+
+#etherea h1{
+    position: relative;
+    font-size: 8vw;
+    letter-spacing: -.6vw;
+    line-height: .9;
+    color: #ff9901;
+}
+
+#imgtext{
+    width: fit-content;
+    height: fit-content;
+}
+
+#etherea p{
+    font-size: 1.2vw;
+    letter-spacing: -.04vw;
+    font-weight: 600;
+    opacity: 0.7;
+    width: 40%;
+    margin-top: 25px;
+}   
+
+/* ====== VISIT ====== */
+#visit{
+    display:flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#circlev{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%; 
+    border: 1px solid #5e5e5e;   
+}
+
+#circlev i{
+    font-size: 1.5vw;
+    color: #5e5e5e;
+}
+
+#visit h4{
+    font-weight: 400;
+    color: #5e5e5e;
+}
+
+
+/* ====== MOTIVE ====== */
+#motive{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw;
+    margin-top: 7vw;
+}
+
+#motive h3{
+    font-weight: 400;
+    margin-top: -4vw;
+    opacity: 0.5;
+}
+
+#motive p{
+    position: relative;
+    text-align: right;
+    font-size: 1.6vw;
+    letter-spacing: -.06vw;
+    line-height: 2.2;
+    width: 85%;
+    right: 0;
+}
+
+#motive span{
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 100px;
+    margin-bottom: -12px;
+}
+
+#motive #onespan{
+    width: 75px;
+    height: 40px;
+    background-image: url('assets/lamp.jpg');
+    background-size: cover;
+    background-position: 0% 30%;
+}
+
+#motive #twospan{
+    width: 100px;
+    height: 40px;
+    background-image: url('assets/minerals.jpg');
+    background-size: cover;
+    background-position: 0% 55%;
+}
+
+#motive #threespan{
+    width: 75px;
+    height: 40px;
+    background-image: url('assets/corn.jpg');
+    background-size: cover;
+    background-position: 0% 55%;
+}
+
+
+/* ====== 2 PICTURES ====== */
+#pictures{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw;
+    padding-left: 23vw;
+    padding-right: 10vw;
+    margin-top: 8vw;
+}
+
+#synergy{
+    width: 17vw;
+}
+
+#synergy .pic-images{
+    width: 100%;
+    height: 24vw;
+    margin-bottom: 1vw;
+}
+
+#synergy h1,
+#harmony h1{
+    font-size: 2vw;
+    letter-spacing: -.1vw;
+}
+
+#synergy p,
+#harmony p{
+    font-size: 1.2vw;
+    letter-spacing: -.03vw;
+    font-weight: 500;
+    margin-top: 5px;
+    opacity: 0.7;
+}
+
+#harmony{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 25vw;
+}
+
+#harmony .pic-images{
+    width: 100%;
+    height: 37vw;
+    margin-bottom: 1vw;
+}
+
+#harmony__text{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#harmony p{
+    width: 70%;
+    text-align: right;
+}
+
+/* ====== PACK BANNER ====== */
+#banner{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 8vw;
+}
+
+#bimg{
+    width: 65%;
+    height: 60vh;
+    object-fit: contain;
+}
+
+#btext{
+    width: 35%;
+    padding: 0 6vw;
+}
+
+#btext h1{
+    font-size: 2.8vw;
+    letter-spacing: -.15vw;
+}
+
+#btext p{
+    width:90%;
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin-top: 20px;
+    opacity: 0.7;
+}
+
+/* ====== FUTURE VIDEO====== */
+#future{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    margin-top: 5vw;
+}
+
+#future video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+#ftext{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-transform: capitalize;
+    font-size: .8vw;
+    letter-spacing: -.03vw;
+    padding: 1vw 2vw;
+    border-radius: 10px;
+    background-color: #fff;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+#ftext h1{
+    font-weight: 500;
+}
+
+#ftext button{
+    text-transform: capitalize;
+    font-size: .8vw;
+    font-weight: 700;
+    padding: .8vw 1.7vw;
+    margin-top: 6px;
+    background-color: #fff;
+    border: 2px solid #c6c6c6;
+    border-radius: 100px;
+    transition: background-color 0.1s ease;
+    cursor: pointer;
+}
+
+#ftext button:active{
+    background-color: #c6c6c6;
+}
+
+
+/* ====== BREAKPOINTS ====== */
+/* For medium devices */
+
+@media screen and (max-width: 768px){
+/* ====== NAV ====== */
+    #nav{
+        flex-direction: column;
+        display: flex;
+        padding: 10vw;
+        height: 10vw;
+    }
+    #nav__list .nlink:last-child{
+        margin-left: 0;
+    }
+
+    #nav__list{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: .5vw;
+        transform: translateY(-200%);
+        transition: transform 1s ease;
+        background-color:#f1edc7;
+        padding: 13vw;
+        z-index: 100;
+    }
+
+    #nav a{
+        font-size: 18px;
+    }
+
+    #logo{
+        left: 7vw;
+        top: 7vw;
+    }
+
+    #logo img{
+        width: 8vw;
+    }
+
+    .nav__toggle{
+        display: block;
+        position: absolute;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        top: 4vw;
+        right: 3vw;
+    }
+
+    .nav__toggle i{
+        font-size: 40px;
+        color: #5a5757;
+    }
+
+    .nav__close{
+        display: none;
+        position: absolute;
+        background: none;
+        border: none;
+        cursor: pointer;
+        transition-delay: 0.6s;
+        top: 13vw;
+        right: 13vw;
+        z-index: 110;
+    } 
+
+    .nav__close i{
+        font-size: 34px;
+        color: #ff9901;
+    }
+
+/* close button animation */
+    #nav-close {
+        animation: fadeIn 3.5s ease forwards;
+        opacity: 0; 
+    }
+    
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    
+    .show-menu #nav-close {
+        animation-delay: 0.5s; 
+    }
+
+/* ====== HERO ====== */
+    #hero{
+        flex-direction: column;
+        margin-top: 0;
+    }
+/* ====== ETHEREA ====== */
+    #etherea h1,
+    #imgtext{
+        order: 1;
+    }
+
+    #etherea,
+    #headings{
+        display: flex;
+        flex-direction: column;
+        width: 60vw;
+        top: 18vw;
+    }
+
+    #etherea h1{
+        font-size: 14vw;
+        letter-spacing: -.8vw;
+    }
+
+    #imgtext{
+        margin-bottom: 0vw;
+    } 
+
+    #etherea p{
+        font-size: 2vw;
+        width: 80%;
+        margin-top: 5px;
+    }
+
+/* ====== SYMBIOSIS ====== */
+    #symbiosis{
+        width: 100%;
+        order: 2;
+        margin-top: 50vw;
+    }
+
+    #sym__image{
+        display: flex;
+        justify-content: flex-end;
+        top: -55vw;
+    }
+
+    #sym__image img{
+        width: 60%;
+        height: 80vw;
+    }
+
+    #symbiosis h4{
+        font-size: 2.8vw;
+    }
+
+    #symbiosis p{
+        font-size: 2vw;
+        margin-top: 4vw;
+    }
+
+/* ====== VISIT ====== */
+    #visit{
+        order: 3;
+        display: flex;
+        margin-top: 20vw;
+    }
+   
+/* ====== MOTIVE ====== */
+    #motive{
+        margin-top: 15vw; 
+        flex-direction: column;
+    }
+
+    #motive h3{
+        margin-top: -10vw; 
+        width: 25%;
+        font-size: 2.8vw;
+        margin-left: -8vw;
+    }
+
+    #motive p{
+        width: 100%;
+        font-size: 2.7vw;
+        margin-top: 3vw; 
+    }
+/* ====== 2 PICTURES ====== */
+    #pictures{
+        padding-left: 10vw;
+    }
+
+    #synergy h1,
+    #harmony h1{
+        font-size: 4.5vw;
+    }
+
+    #synergy p,
+    #harmony p{
+        font-size: 2vw;
+        margin-top: 2vw;
+    }
+   
+    #synergy{
+        width: 25vw;
+    }
+ 
+    #synergy .pic-images{
+        height: 37vw;
+    }
+
+    #harmony{
+        width: 45vw;
+    }
+
+    #harmony .pic-images{
+        display: flex;
+        justify-content: flex-end;
+        height: 57vw;
+    }
+
+/* ====== PACK BANNER ====== */
+    #banner{
+        flex-direction: column;
+        order: -1;
+        margin-top: 10vw;
+    }
+
+    #btext{
+        width: 90%;
+        padding-left: 0;
+        order: -1;
+    }
+
+    #btext h1{
+        font-size: 4.5vw;
+        /* margin-left: 10vw; */
+    }
+
+    #btext p{
+        font-size: 2vw;
+        margin-bottom: 5vw;
+    }
+
+    #bimg{
+        display: flex;
+        margin-left: -36vw;
+        width: 100%;
+
+    }
+
+
+
+/* ====== FUTURE VIDEO====== */
+    #ftext{
+        font-size: 1.1vw;
+    }
+    #ftext button{
+        font-size: 1.4vw;
+    }
+}
+
+/* For small devices */
+@media screen and (max-width: 390px){
+/* ====== NAV ====== */    
+    #logo{
+        left: 10vw;
+        top: 10vw;
+    }
+
+    #logo img{
+        width: 15vw;
+    }
+/* ====== HERO ====== */
+#hero{
+    margin-top: 15vw;
+}
+
+/* ====== ETHEREA ====== */    
+    #etherea p{
+        font-size: 3.2vw;
+        width: 95%;
+    } 
+/* ====== SYMBIOSIS ====== */
+    #sym__image{
+        top: -80vw;
+    }
+    #symbiosis h4{
+        font-size: 4vw;
+    }
+
+    #symbiosis p{
+        font-size: 3.5vw;
+    }
+
+/* ====== VISIT ====== */
+    #visit{
+        margin-top: 3vw;
+    }
+
+/* ====== MOTIVE ====== */
+    #motive{
+        margin-top: 20vw;
+    }
+
+    #motive h3{
+        width: 30%;
+        font-size: 3.5vw;
+        margin-left: -5vw;
+    }
+
+    #motive p{
+        width: 100%;
+        font-size: 4vw;
+        line-height: 2.2;
+    }
+/* ====== 2 PICTURES ====== */
+    #pictures {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center;
+        padding: auto;
+        width: 100%;
+    }
+
+    #synergy h1,
+    #harmony h1{
+        font-size: 6.5vw;
+        margin-top: 2vw;
+    }
+
+    #synergy p,
+    #harmony p{
+        font-size: 3.5vw;
+        margin-top: 2vw;
+    }
+
+    #synergy,
+    #harmony {
+        margin: 0 auto;  
+    } 
+
+    #synergy{
+        width: 55vw;
+        margin-bottom: 10vw;
+    }
+
+    #synergy .pic-images{
+        height: 77vw;
+    }
+
+    #harmony{
+        width: 75vw;
+        align-items: end;
+    }
+
+    #harmony .pic-images{
+        display: flex;
+        justify-content: flex-end;
+        height: 97vw;
+    }
+
+/* ====== PACK BANNER ====== */
+    #banner{
+        margin-top: 30vw;
+        width: 90vh;
+    }
+
+    #bimg{
+        height: 45vh;
+    }
+
+    #btext h1{
+        font-size: 6.5vw;
+    }
+
+    #btext p{
+        width:50%;
+        font-size: 3.5vw;
+    }
+
+/* ====== FUTURE VIDEO====== */
+    #future{
+        margin-top: -20vw;
+    }
+
+    #ftext{
+        font-size: 2vw;
+        margin-top: 70vw;
+        padding: 4vw 3vw;
+    }
+
+    #ftext button{
+        font-size: 3vw;
+        padding: 1.5vw 5vw;
+        color: #797373;
+    }
+}    
