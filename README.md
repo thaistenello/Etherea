@@ -5,7 +5,7 @@ ETHEREA
 
 <h3 align="center"><a href="#etherea-english">Show English version</a></h3>
 
-<!-- ![gif](https://github.com/thaistenello/Explore/assets/131812228/5bed8d95-797c-4ca4-81e0-5d483b3b966d) -->
+![gif](https://github.com/thaistenello/Etherea/assets/131812228/86b1505e-769b-4bcb-8a91-d22b50523467)
 
 <a href="" target="_blank">
     <img src="https://placehold.jp/ffffff/350x50.png?text=Visualize%20a%20Demonstra%C3%A7%C3%A3o&css=%7B%22border-radius%22%3A%2215px%22%2C%22background%22%3A%22%20-webkit-gradient(linear%2C%20left%20top%2C%20left%20bottom%2C%20from(%23dd5538)%2C%20to(%23eb5f5c))%22%7D">
@@ -64,7 +64,7 @@ ETHEREA
 
 <h3 align="center"><a href="#explore-english">Show English version</a></h3>
 
-<!-- ![gif](https://github.com/thaistenello/Explore/assets/131812228/5bed8d95-797c-4ca4-81e0-5d483b3b966d) -->
+![gif](https://github.com/thaistenello/Etherea/assets/131812228/86b1505e-769b-4bcb-8a91-d22b50523467)
 
 <a href="" target="_blank">
     <img src="https://placehold.jp/ffffff/300x50.png?text=View%20the%20Demo&css=%7B%22border-radius%22%3A%2215px%22%2C%22background%22%3A%22%20-webkit-gradient(linear%2C%20left%20top%2C%20left%20bottom%2C%20from(%23dd5538)%2C%20to(%23eb5f5c))%22%7D">
