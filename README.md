@@ -62,8 +62,6 @@ Etherea é uma marca ficticia de cosméticos seu site foi desenvolvido por mim c
 ETHEREA
 </h1>
 
-<h3 align="center"><a href="#explore-english">Show English version</a></h3>
-
 ![gif-preview](https://github.com/thaistenello/Etherea/assets/131812228/7da1f83e-55b7-46b8-99e0-c8b8724ac3d6)
 
 <a href="https://etherea-iota.vercel.app/" target="_blank">
