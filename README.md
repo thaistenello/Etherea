@@ -52,7 +52,7 @@ Etherea é uma marca ficticia de cosméticos seu site foi desenvolvido por mim c
 <pre><code>cd Etherea</code></pre>
 
 <h2>Licença</h2>
-<p>Este projeto é distribuído sob a licença MIT, para mais informações acesse o arquivo <a href="https://github.com/thaistenello/Etherea/main/LICENSE">License </a>.</p>
+<p>Este projeto é distribuído sob a licença MIT, para mais informações acesse o arquivo <a href="https://github.com/thaistenello/Etherea/blob/main/License">License </a>.</p>
 
 
 
@@ -111,4 +111,4 @@ Etherea is a fictional cosmetics brand your website was developed by me with the
 <pre><code>cd Etherea</code></pre>
 
 <h2>License</h2>
-<p>This project is distributed under the MIT license, for more information access the <a href="https://github.com/thaistenello/Etherea/main/LICENSE">License </a>file.</p>
+<p>This project is distributed under the MIT license, for more information access the <a href="https://github.com/thaistenello/Etherea/blob/main/License">License </a>file.</p>
